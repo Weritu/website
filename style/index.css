@@ -1,0 +1,39 @@
+/*Estilização da navbar*/
+
+ul {
+  margin-left: 16%;
+  font-family: "Roboto", sans-serif;
+}
+
+nav a {
+  color: black;
+  margin: auto 20px auto 40px;
+  text-decoration: none;
+}
+
+nav li {
+  float: left;
+  margin-top: 1.5%;
+  margin-left: 5%;
+  list-style: none;
+}
+
+nav li .introducao {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+img.logo {
+  position: absolute;
+  width: 56px;
+  height: 51px;
+}
+
+img.industry {
+  position: absolute;
+  width: 1024px;
+  height: 366px;
+  background: url(image.png);
+  border-radius: 40px;
+}
