@@ -1,39 +1,41 @@
-/*Estilização da navbar*/
-
-ul {
-  margin-left: 16%;
-  font-family: "Roboto", sans-serif;
+body{
+    font-family: 'Roboto','sans-serif';
 }
 
-nav a {
-  color: black;
-  margin: auto 20px auto 40px;
-  text-decoration: none;
+
+
+img.industry{
+    border-radius: 40px;
+    height: 70vh;
+    width: 100%;
 }
 
-nav li {
-  float: left;
-  margin-top: 1.5%;
-  margin-left: 5%;
-  list-style: none;
+
+
+#C1{
+    
+    height: 20%;
+    width: 24%;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    position: relative;
+    
 }
 
-nav li .introducao {
-  float: left;
-  margin-left: 5%;
-  margin-right: 5%;
+#R1{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 40px;
+    left: 1.5vw;
+    position: absolute;
+    top: 10%;
 }
 
-img.logo {
-  position: absolute;
-  width: 56px;
-  height: 51px;
-}
-
-img.industry {
-  position: absolute;
-  width: 1024px;
-  height: 366px;
-  background: url(image.png);
-  border-radius: 40px;
+div.card a{
+    left: 9vw;
+    top: 6vh;
+    position: absolute;
+    color: #FFFF;
+    text-decoration: none;
+    background-color: #7D9BC3;;
 }
